@@ -175,7 +175,7 @@ CORS_ALLOWED_ORIGINS = [
 # Add production origins when deployed
 if not DEBUG:
     CORS_ALLOWED_ORIGINS.extend([
-        "https://your-frontend-app.vercel.app",  # Replace with your Vercel URL
+        "https://spotter-frontend-j3b9.vercel.app", 
     ])
 
 CORS_ALLOW_CREDENTIALS = True
