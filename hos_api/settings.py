@@ -29,7 +29,15 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'django-insecure-your-secret-key-here-chang
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'True').lower() == 'true'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.railway.app', '.render.com', '.vercel.app']
+#ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.railway.app', '.render.com', '.vercel.app']
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '.railway.app',
+    '.render.com',
+    '.vercel.app',
+    'spotter-backend-y46k.onrender.com'  # <-- add your actual Render URL here
+]
 
 # Application definition
 
